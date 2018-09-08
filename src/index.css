@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+}
+
+
+.Main {
+    display: flex;
+    flex-direction: row;
+}
+
+.MainContent {
+    /*Ajustamos FlexBox*/
+    position: relative;
+
+    /*Propiedades de la caja*/
+    padding: 25px;
+
+    width: 100%;
+    height: 95%;
+}
+
+
+/* Barra de Navegacion*/
+
+.NavigationBar {
+    /*Ajustamos FlexBox*/
+    position: relative;
+
+    /**/
+    width: 23%;
+    height: 95vh;
+    background: #f3f3f3;
+    padding: 25px;
+
+    /*Propiedades del texto*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavigationBar .TitleNav {
+    font-size: 35px;
+}
+
+.NavigationBar li {
+    list-style: none;
+    font-size: 27px;
+    line-height: 3.5;
+}
+
+.NavigationBar a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+}
+
+.NavigationBar a:hover, a:visited
+{
+    background-color: #bfbfbf;
+}
+
+/* Generales*/
+
+.TituloPrincipal {
+    font-size: 50px;
+    color: black;
+}
+
+.PonerPrimeraLetraEnMayuscula {
+    text-transform: capitalize;
+}
+
+.QuitarDecoracion {
+    text-decoration: none;
+}
+
+.EditButton {
+    padding: 10px;
+    top: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: white;
+    /*background: rgba( 22, 230, 137, 1 );*/
+    color: lightskyblue;
+
+}
+
+.EditButton:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: lightskyblue;
+}
+
+.DeleteButton {
+    padding: 10px;
+    top: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: white;
+    /*background: red;*/
+    color: red;
+
+}
+
+.DeleteButton:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: red;
+}
+
+
+.GreenButton {
+    padding: 10px;
+    top: 0;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: rgba(6, 255, 0, 0.5);
+    background: rgba( 22, 230, 137, 1 );
+    color: #fff;
+
+}
+
+.GreenButton:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(6, 255, 0, 0.5);;
+}
+
+.RedButton {
+    padding: 10px;
+    top: 0;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: darkred;
+    background: red;
+    color: #fff;
+
+}
+
+.RedButton:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: darkred;
+}
+
+
+
+
+/*HomePage -> InfoBox*/
+
+
+/*Tables*/
+
+/*tbody {*/
+    /*display:block;*/
+    /*height:300px;*/
+    /*overflow:auto;*/
+/*}*/
+/*thead, tbody tr {*/
+    /*display:table;*/
+
+    /*!*table-layout:fixed;!* even columns width , fix width of table too*!*!*/
+/*}*/
+.ver-minimalist
+{
+    font-size: 25px;
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.ver-minimalist th
+{
+    padding: 8px 2px;
+    font-weight: bolder;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    /*color: #039;*/
+}
+.ver-minimalist td
+{
+    padding: 12px 2px 0px 2px;
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    /*color: #669;*/
+}
+/*.ver-minimalist tbody{*/
+    /*display:block;*/
+    /*height:300px;*/
+    /*overflow:auto;*/
+/*}*/
+
+
+.Inputs {
+    display: inline-block;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 33%;
+    margin: -3px 20px 20px 20px;
+}
+
+.TitulosInputs{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+.select-style {
+    border: 0px solid black;
+    border-bottom: 1px solid #888888;
+    width: 65%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: white no-repeat 90% 50%;
+    margin: -3px 20px 20px 20px;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+/*thead {*/
+    /*width: calc( 100% - 1em )!* scrollbar is average 1em/16px width, remove it from thead width *!*/
+/*}*/
+/*table {*/
+    /*width:1000px;*/
+/*}*/
