@@ -1,7 +1,8 @@
 # Library
-Library App starting point
 
-How i put it on git:<br />
+This app was made with React-Redux frameworks. 
+
+How I put it on git:<br />
   555  git init<br />
   556  git remote add origin https://github.com/Siralde/LibraryWebAppClient.git<br />
   557  git fetch<br />
